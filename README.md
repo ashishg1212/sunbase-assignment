@@ -14,7 +14,7 @@ A simple Java-based chatbot that uses Retrieval Augmented Generation (RAG) to an
 3. Supabase
 
 ## Supabase
-1. Create a Database and table.
+1. Create a Database
 2. Run the following query:
 
    ```sql
