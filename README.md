@@ -9,6 +9,6 @@ A simple Java-based chatbot that uses Retrieval Augmented Generation (RAG) to an
 5. Run mvn clean install to build the project.
 
 # Dependencies
-Java 8 or above
-Maven
-Supabase
+1. Java 8 or above
+2. Maven
+3. Supabase
