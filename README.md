@@ -23,30 +23,3 @@ A simple Java-based chatbot that uses Retrieval Augmented Generation (RAG) to an
        id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
        content TEXT NOT NULL
    );
-
-   -- Enable Row Level Security (RLS) on the table
-   ALTER TABLE documents ENABLE ROW LEVEL SECURITY;
-
-   -- Create a policy to allow all users to select data (you can modify this as per your security needs)
-   CREATE POLICY "Allow select for all users" 
-   ON documents
-   FOR SELECT
-   USING (true);
-
-   -- Create a policy to allow all users to insert data (you can modify this as per your security needs)
-   CREATE POLICY "Allow insert for all users"
-   ON documents
-   FOR INSERT
-   WITH CHECK (true);
-
-   -- Create a policy to allow all users to update data (optional, modify as needed)
-   CREATE POLICY "Allow update for all users"
-   ON documents
-   FOR UPDATE
-   USING (true);
-
-   -- Create a policy to allow all users to delete data (optional, modify as needed)
-   CREATE POLICY "Allow delete for all users"
-   ON documents
-   FOR DELETE
-   USING (true);
