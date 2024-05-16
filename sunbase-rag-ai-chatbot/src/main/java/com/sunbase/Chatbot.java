@@ -30,7 +30,7 @@ public class Chatbot {
         try {
             //adding a document from a file
             UUID docId = UUID.randomUUID();
-            String filePath = "C:\\Users\\ashis\\eclipse-workspace\\sunbase-rag-ai-chatbot\\documents\\note"; // Update with your file path
+            String filePath = "supabase\\document\doc.txt"; // Update with your file path
             supabaseClient.addDocumentFromFile(docId, filePath);
 
             // fetching a document
