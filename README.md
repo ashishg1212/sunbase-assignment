@@ -1,7 +1,7 @@
 # sunbase-assignment
 A simple Java-based chatbot that uses Retrieval Augmented Generation (RAG) to answer user queries based on a document.
 
-#Setup Instructions
+# Setup Instructions
 1. Clone the repository and open in your IDE.
 2. Create .env file and add Supabase and OpenAI API keys.
 3. Create document.txt file and add sample text.
