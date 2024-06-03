@@ -12,14 +12,3 @@ A simple Java-based chatbot that uses Retrieval Augmented Generation (RAG) to an
 1. Java 8 or above
 2. Maven
 3. Supabase
-
-## Supabase
-1. Create a Database
-2. Run the following query:
-
-   ```sql
-   -- Create the documents table
-   CREATE TABLE documents (
-       id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-       content TEXT NOT NULL
-   );
